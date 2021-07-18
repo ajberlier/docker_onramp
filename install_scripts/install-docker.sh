@@ -24,3 +24,10 @@ printf '\n\nDocker Compose version will be displayed below if installed successf
 docker-compose --version
 printf '\n'
 
+# create docker group and add current user
+sudo groupadd docker
+
+# enable docker service on boot
+sudo systemctl enable docker.service
+sudo systemctl enable containerd.service
+

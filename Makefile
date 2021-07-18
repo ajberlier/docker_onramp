@@ -1,3 +1,4 @@
+#TODO: add a help target that list all the targets
 
 images:
 	docker images
